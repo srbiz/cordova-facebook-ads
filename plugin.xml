@@ -1,0 +1,21 @@
+<?xml version='1.1' encoding='utf-8'?>
+<plugin id="@govindbhumkar/cordova-facebook-ads" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+  <n>facebookads</n>
+  <js-module name="facebookads" src="www/facebookads.js">
+    <clobbers target="cordova.facebookads" />
+  </js-module>
+  <platform name="android">
+    <config-file parent="/*" target="res/xml/config.xml">
+      <feature name="facebookads">
+        <param name="android-package" value="cordova.facebookads.ads.facebookads" />
+      </feature>
+    </config-file>
+    <config-file parent="/*" target="AndroidManifest.xml"></config-file>
+    <source-file src="src/android/facebookads.java" target-dir="src/cordova/facebookads/ads/facebookads" />
+	
+
+  <framework custom="true" src="src/android/facebook-sdk.gradle" type="gradleReference" />
+
+	
+  </platform>
+</plugin>

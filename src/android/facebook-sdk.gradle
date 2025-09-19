@@ -1,0 +1,4 @@
+dependencies {
+  implementation 'androidx.annotation:annotation:1.0.0'
+  implementation 'com.facebook.android:audience-network-sdk:6.+'
+}
