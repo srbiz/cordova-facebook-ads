@@ -28,22 +28,13 @@ exports.loadBannerAds = function (arg0, success, error) {
     exec(success, error, 'facebookads', 'loadBannerAds',[arg0]);
 };
 
-
 exports.showBannerAds = function (success, error) {
     exec(success, error, 'facebookads', 'showBannerAds');
 };
 
-
-
-
-
 exports.hideBannerAds = function (success, error) {
     exec(success, error, 'facebookads', 'hideBannerAds');
 };
-
-
-
-
 
 exports.distroyBannerAds = function (success, error) {
     exec(success, error, 'facebookads', 'distroyBannerAds');

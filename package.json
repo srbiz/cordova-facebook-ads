@@ -1,6 +1,6 @@
 {
   "name": "@govindbhumkar/cordova-facebook-ads",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Cordova plugin for integrating Facebook Audience Network ads. Supports banner ads, interstitial ads, and rewarded video ads for mobile applications.",
   "cordova": {
     "id": "@govindbhumkar/cordova-facebook-ads",
@@ -27,7 +27,7 @@
     "url": "git+https://github.com/srbiz/cordova-facebook-ads.git"
   },
   "bugs": {
-        "url": "https://github.com/srbiz/cordova-facebook-ads/issues"
+    "url": "https://github.com/srbiz/cordova-facebook-ads/issues"
   },
-    "homepage": "https://github.com/srbiz/cordova-facebook-ads#readme"
+  "homepage": "https://github.com/srbiz/cordova-facebook-ads#readme"
 }

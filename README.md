@@ -1,12 +1,32 @@
 # Facebook Audience Network Ads
 
-> A Cordova plugin for implementing Facebook Audience Network ads in your mobile applications.
+This plugin provides a simple interface for displaying Facebook Audience Network ads in your Cordova, Capacitor applications.
 
-This plugin provides a simple interface for displaying Facebook Audience Network ads in your Cordova applications.
+<p align="center"><br><img src="https://i.ibb.co/FLXkfSGc/govindbhumkar-cordova-facebook-ads-1.png" alt="govindbhumkar-cordova-facebook-ads-1" width="128" height="128" /></p>
+<p align="center"><strong><code>@govindbhumkar/cordova-facebook-ads</code></strong></p>
+
+<p align="center">
+  <img src="https://img.shields.io/maintenance/yes/2025?style=flat-square" />
+  <a href="https://www.npmjs.com/package/@govindbhumkar/cordova-facebook-ads"><img src="https://img.shields.io/npm/l/@govindbhumkar/cordova-facebook-ads?style=flat-square" /></a>
+<br>
+  <a href="https://www.npmjs.com/package/@govindbhumkar/cordova-facebook-ads"><img src="https://img.shields.io/npm/dw/@govindbhumkar/cordova-facebook-ads?style=flat-square" /></a>
+  <a href="https://www.npmjs.com/package/@govindbhumkar/cordova-facebook-ads"><img src="https://img.shields.io/npm/v/@govindbhumkar/cordova-facebook-ads?style=flat-square" /></a>
+</p>
+
+<table>
+  <tr>
+    <th>Banner Ads</th>
+    <th>Interstitial Ads</th>
+  </tr>
+  <tr>
+    <td><img src="https://4.bp.blogspot.com/-T-9Se64wMXE/XPTc1DCv3rI/AAAAAAAAPcE/C5sAXRllwO0JtdbUUL4CKSKwshwfGFj2wCLcBGAs/s1600/1.png" width="350" alt="Hide facebook banner ads"></td>
+    <td><img src="https://1.bp.blogspot.com/-2b3g7OSzTqk/XPTc1U-FYZI/AAAAAAAAPcI/2IJN-wkYgWoWr75vNOhv5RjPTYhxfDR6wCLcBGAs/s1600/3.png" width="350" alt="Facebook Interstitial"></td>
+  </tr>
+</table>
+
 
 ## Table of Contents
 - [Installation](#installation)
-- [Uninstallation](#uninstallation)
 - [SDK Version](#sdk-version)
   - [Load and Show Banner Ads](#load-and-show-banner-ads)
   - [Load Banner Ads Only](#load-banner-ads-only)
@@ -27,10 +47,9 @@ This plugin provides a simple interface for displaying Facebook Audience Network
 $ cordova plugin add @govindbhumkar/cordova-facebook-ads
 ```
 
-## Uninstallation
-### Using the Cordova CLI
+### npm
 ```bash
-$ cordova plugin rm @govindbhumkar/cordova-facebook-ads
+$ npm install @govindbhumkar/cordova-facebook-ads
 ```
 
 ## SDK Version
@@ -390,4 +409,4 @@ function videoRewardFail(result) {
 - Android
 
 ## Thanks
-This plugin is a modified fork of [cordova-plugin-codeplay-facebookads-free](https://github.com/merbin2012/cordova-plugin-codeplay-facebookads-free). Special thanks to [merbin2012](https://github.com/merbin2012) for creating the original plugin that served as the foundation for this enhanced version.
+This plugin is a modified fork of [cordova-plugin-codeplay-facebookads-free](https://githThis plugin is a modified fork of [cordova-plugin-codeplay-facebookads-free](https://github.com/merbin2012/cordova-plugin-codeplay-facebookads-free). Special thanks to [merbin2012](https://github.com/merbin2012) for creating the original plugin that served as the foundation for this enhanced version.
